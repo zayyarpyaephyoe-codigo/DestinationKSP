@@ -13,9 +13,9 @@ data class Sample(
 </code>
 
 
-will generate to 
+will generate to
 
-
+<code>
 public object SampleDestination {
   public val NAME: String = "name"
 
@@ -49,3 +49,4 @@ public object SampleDestination {
     return URLEncoder.encode(this , StandardCharsets.UTF_8.toString())
   }
 }
+</code>
