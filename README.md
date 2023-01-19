@@ -15,7 +15,7 @@ data class Sample(
 
 will generate to
 
-<code>
+```kotlin
 public object SampleDestination {
   public val NAME: String = "name"
 
@@ -49,4 +49,4 @@ public object SampleDestination {
     return URLEncoder.encode(this , StandardCharsets.UTF_8.toString())
   }
 }
-</code>
+```
