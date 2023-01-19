@@ -1,5 +1,11 @@
 # DestinationKSP
 
+Annonations
+```kotlin
+@Destination
+@EncodeUrl
+```
+
 
 Usage
 ```kotlin
