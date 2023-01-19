@@ -2,7 +2,7 @@
 
 
 Usage
-
+<code>
 @Destination(name = "android_sample")
 data class Sample(
     val name: String,
@@ -10,6 +10,7 @@ data class Sample(
     val address: String,
     val isAndroid: Boolean
 )
+</code>
 
 
 will generate to 
